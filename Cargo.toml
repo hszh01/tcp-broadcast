@@ -1,0 +1,9 @@
+[package]
+name = "tcp-broadcast"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.38", features = ["full"] }
+futures = "0.3"
+tokio-stream = { version = "0.1", features = ["io-util", "net"] }
